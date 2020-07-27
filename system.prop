@@ -1,6 +1,6 @@
-ro.display.series=LG V40
+ro.display.series=LG V50
 ro.sf.lcd_density=640
 ro.lge.lcd_default_brightness=178
 sys.usb.controller=a600000.dwc3
-ro.product.board=sdm845
-ro.board.platform=sdm845
+ro.product.board=msmnile
+ro.board.platform=msmnile

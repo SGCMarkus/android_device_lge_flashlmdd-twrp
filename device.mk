@@ -1,7 +1,7 @@
 
-LOCAL_PATH := device/lge/judypn
+LOCAL_PATH := device/lge/flashlmdd
 
-PRODUCT_PLATFORM := sdm845
+PRODUCT_PLATFORM := msmnile
 
 # A/B support
 PRODUCT_PACKAGES += \
@@ -11,7 +11,7 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 PRODUCT_PACKAGES += \
-    bootctrl.sdm845
+    bootctrl.msmnile
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
@@ -22,11 +22,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # Enable update engine sideloading by including the static version of the
 # boot_control HAL and its dependencies.
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.sdm845 \
+    bootctrl.msmnile \
     libgptutils \
     libz \
     libcutils
-
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
