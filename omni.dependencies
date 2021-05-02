@@ -11,4 +11,10 @@
     "target_path": "device/qcom/twrp-common",
     "revision": "android-10"
   }
+  {
+    "remote": "github",
+    "repository": "SGCMarkus/android_device_lge_sm8150-common-twrp",
+    "target_path": "device/lge/sm8150-common",
+    "revision": "android-10"
+  }
 ]
